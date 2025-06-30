@@ -1,0 +1,124 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+} 
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.color-title{
+    color: white;
+    /* margin-bottom: 1%; */
+}
+
+
+.icon-size{
+    font-size: 35px;
+}
+.justfiy-content-between{
+    justify-content: space-between ; /*culonms */
+
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.card{
+   background-color: #ffffff;
+    width: 100%;
+    padding: 5%;
+    border-radius: 1.5%;
+}
+
+
+.text-white{
+    color: white;
+}
+
+.flex-box{
+    display: flex;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.bg-dark{
+    background-color: rgb(16 23 39);
+}
+
+.inputs {
+ width: 100%;
+    padding: 2.5%;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    border: 1px solid #ccc;
+    margin-bottom: 2%;
+}
+.w-100{
+       width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+button{
+  background-color: #141f33;
+    color: white;
+  background: linear-gradient(to right, #0d1523, #1e2b49);
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+}
+.in-pad{
+    margin-top: 2%;
+}
+
+a {
+    color: #6ca0ff;
+    text-decoration: underline;
+}
+.form-section {
+    margin-bottom: 4%;
+}
+
+.text-color{
+    color: #ffffff;
+}
+
+.wrep{
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.pad-margin{
+    margin-bottom: 16%;
+    padding-right: 1%;
+}
+
+p{
+    color: rgb(206, 207, 210);
+    font-size: 0.9vw;
+    margin-bottom: 1%;
+}
+h5 {
+    margin-top: 2%;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+ h4 {
+    margin-top: 4%;
+    color: white;
+    font-size: 1.2vw;
+}
+ i {
+    font-size: 1.4vw;
+    color: white;
+    margin-right: 5%;
+}
