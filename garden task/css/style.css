@@ -1,0 +1,134 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;}
+ul {
+  list-style: none;
+}
+
+/* Fonts */
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* General */
+.main-color {
+  color: white;
+}
+.third-color {
+  color: #2DA884;
+}
+.button1 {
+  background-color: #2DA884;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.button2 {
+  background-color: white;
+  color: #2DA884;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.main-title {
+  font-size: 64px;
+  font-weight: bold;
+}
+.bg-image {
+  background-image: url(../images/image\ 1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  padding-top: 30px;
+}
+/* They Choose Us */
+.fa-circle-check {
+  font-size: 20px;
+}
+
+/* Services Section */
+.service-card i {
+  display: block;
+}
+.service-card h5 {
+  font-weight: 600;
+}
+.bg-color {
+  background-color: #2DA884;
+}
+.gallery-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .testimonial-card {
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .testimonial-green {
+      background-color: #20c997; /* Bootstrap green (teal) */
+      color: white;
+    }
+    .testimonial-stars {
+      color: gold;
+    }
+    .testimonial-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .faq-heading {
+      font-weight: 700;
+    }
+    .faq-heading .text-success {
+      font-weight: 700;
+    }
+    .accordion-button {
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 12px !important;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    .accordion-item {
+      border: none;
+      margin-bottom: 15px;
+      border-radius: 15px;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #20c997;
+      color: white;
+    }
+    .accordion-body {
+      color: white;
+    }
+    .accordion-button::after {
+      transform: rotate(180deg);
+    }
+    .accordion-button.collapsed::after {
+      transform: rotate(0deg);
+    }
